@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Мое видео</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    iframe {
+      width: 100%;
+      max-width: 400px;
+      height: 80vh;
+      max-height: 700px;
+      border: none;
+    }
+  </style>
 </head>
-<body style="margin:0; background:#000; display:flex; justify-content:center; align-items:center; height:100vh;">
-  <h1 style="color:white; text-align:center;">Здесь будет мое видео</h1>
+<body>
+  <iframe src="https://www.youtube.com/embed/M9DhU8yjUFY" allowfullscreen></iframe>
 </body>
 </html>
